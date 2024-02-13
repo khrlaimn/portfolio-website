@@ -50,7 +50,7 @@ export const links = [
   },
 ];
 
-export const services = [
+export const skills = [
   {
     id: 1,
     name: 'Web Development',
@@ -88,7 +88,7 @@ export const services = [
   },
 ];
 
-export const skills = [
+export const skills2 = [
   {
     id: 1,
     name: 'PHP',

@@ -9,6 +9,7 @@ import "./home.css";
 const Home = () => {
   return (
     <section className="home" id="home">
+      <div className="home__wrapper">
       <div className="home__container container">
         <p className="home__subtitle text-cs">
           Hello, <span>My Name Is</span>
@@ -38,9 +39,7 @@ const Home = () => {
           </p>
 
           <p className="home__data home__data-two">
-            <span className="text-lg">
-              330
-            </span>
+            <span className="text-lg">330</span>
 
             <span className="text-sm text-cs">
               Completed <span>Projects</span>
@@ -77,6 +76,7 @@ const Home = () => {
             My Skills
           </a>
         </div>
+      </div>
       </div>
     </section>
   );
