@@ -1,6 +1,6 @@
 import React from "react";
 import { skills } from "../../Data";
-import shapeTwo from "../../assets/shape-2.png"
+import shapeTwo from "../../assets/shape-2.png";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -45,7 +45,7 @@ const Skills = () => {
       >
         {skills.map(({ name, title, description }, index) => {
           return (
-            <SwiperSlide className="skills__item card card-one">
+            <SwiperSlide className="skills__item card card-one" key={index}>
               <span className="skills__subtitle text-cs">{name}</span>
 
               <h3 className="skills__title">{title}</h3>

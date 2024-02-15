@@ -142,7 +142,7 @@ export const projects = [
   {
     id: 1,
     img: Project1,
-    category: 'Branding',
+    category: 'Machine Learning',
     title: 'Zorro',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
@@ -182,7 +182,7 @@ export const projects = [
   {
     id: 6,
     img: Project6,
-    category: 'Branding',
+    category: 'Machine Learning',
     title: 'Kana',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
