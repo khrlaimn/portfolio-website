@@ -42,7 +42,7 @@
   }
 
   .home__subtitle,
-    .home__title, /* Corrected typo here */
+    .home__title,
     .home__job,
     .home__text {
     text-align: center;
@@ -307,4 +307,5 @@
   .resume__content{
     padding-inline: 18px 20px;
   }
+  
 }

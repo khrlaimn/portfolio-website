@@ -23,7 +23,7 @@ const Skills = () => {
         My <span>Skills</span>
       </p>
 
-      <Swiper
+      <Swiper 
         spaceBetween={30}
         pagination={{
           clickable: true,
