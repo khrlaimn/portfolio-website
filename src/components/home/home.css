@@ -2,7 +2,14 @@
   background-image: var(--first-gradient);
   padding-bottom: 180px;
 }
-.home__wrapper{
+
+.home,
+.home__wrapper,
+.home__container {
+  position: relative;
+}
+
+.home__wrapper {
   min-height: 60vh;
   display: grid;
   align-items: center;
@@ -10,7 +17,7 @@
 
 .home__container {
   width: 100%;
-  position: relative;
+  z-index: 10;
 }
 
 .home__subtitle,
@@ -36,10 +43,10 @@
 }
 
 .home__title {
+  color: #fff;
   font-size: var(--biggest-font-size);
   text-shadow: 2px 2px hsl(0, 0%, 0%), -2px 2px hsl(0, 0%, 0%),
-    2px -2px hsl(0, 0%, 0%), -2px -2px hsl(0, 0%, 0%), 
-    5px 5px 0 rgb(0 0 0 / 20);
+    2px -2px hsl(0, 0%, 0%), -2px -2px hsl(0, 0%, 0%), 5px 5px 0 rgb(0 0 0 / 20);
   line-height: 1.2;
   margin-top: 15px;
 }
@@ -82,7 +89,7 @@
   background-color: var(--border-color);
 }
 
-.home__img-wrapper{
+.home__img-wrapper {
   position: absolute;
   top: 0%;
   right: 12px;
@@ -91,7 +98,7 @@
   max-width: 680px;
 }
 
-.home__banner{
+.home__banner {
   background-color: var(--primary-color);
   padding-bottom: 100%;
   border-radius: 50%;
@@ -99,10 +106,11 @@
   z-index: 1;
 }
 
-.home__profile{
+.home__profile {
   position: absolute;
   bottom: 0;
   height: 800px;
+  width: 100%;
   border-radius: 500px;
   object-fit: cover;
 }
@@ -121,39 +129,39 @@
   z-index: 1;
 }
 
-.home__data-one{
+.home__data-one {
   bottom: 20%;
   left: -4%;
 }
 
-.home__data-two{
+.home__data-two {
   bottom: 12%;
   right: 6%;
 }
 
 .home__data .text-lg,
-.home__data .text-sm{
+.home__data .text-sm {
   width: 50%;
   color: var(--title-color);
   font-weight: 700;
 }
 
-.home__data .text-lg{
+.home__data .text-lg {
   text-align: center;
   font-size: 37px;
 }
 
-.home__data .text-sm{
+.home__data .text-sm {
   font-size: 13px;
   line-height: 1.5rem;
 }
 
 .home__data .text-lg b,
-.home__data .text-sm span{
-  color:var(--primary-color)
+.home__data .text-sm span {
+  color: var(--primary-color);
 }
 
-.home__data .text-lg b{
+.home__data .text-lg b {
   position: relative;
   top: -4px;
 }
@@ -165,18 +173,17 @@
   right: 6%;
 }
 
-.shape__2
-.shape__3{
+.shape__2 .shape__3 {
   width: 141px;
   height: 141px;
 }
 
-.shape__2{
+.shape__2 {
   bottom: 8%;
   left: -16%;
 }
 
-.shape__3{
+.shape__3 {
   bottom: 0%;
   right: -2%;
 }

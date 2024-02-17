@@ -1,5 +1,6 @@
 import React from "react";
 import { skills } from "../../Data";
+import shapeOne from "../../assets/shape-1.png";
 import shapeTwo from "../../assets/shape-2.png";
 
 // Import Swiper React components
@@ -23,6 +24,7 @@ const Skills = () => {
       </p>
 
       <Swiper
+        spaceBetween={30}
         pagination={{
           clickable: true,
         }}
@@ -56,6 +58,14 @@ const Skills = () => {
           );
         })}
       </Swiper>
+
+      <div className="section__deco deco__right">
+        <img src={shapeOne} alt="" className="shape" />
+      </div>
+
+      <div className="section__bg-wrapper">
+        <span className="bg__title">Skills</span>
+      </div>
     </section>
   );
 };

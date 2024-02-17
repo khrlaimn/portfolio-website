@@ -4,6 +4,7 @@ import Items from "./Items";
 import { projects } from "../../Data";
 import "./portfolio.css";
 import { AnimatePresence } from "framer-motion";
+import shapeOne from "../../assets/shape-1.png";
 
 const allNavList = [
   "all",
@@ -30,7 +31,7 @@ const Portfolio = () => {
   };
 
   return (
-    <section className="porfolio section" id="work">
+    <section className="porfolio section" id="portfolio">
       <h2 className="section__title text-cs">Portfolio</h2>
       <p className="section__subtitle">
         My <span>Projects</span>
@@ -42,6 +43,14 @@ const Portfolio = () => {
         <AnimatePresence initial={false}>
           <Items projectItems={projectItems} />
         </AnimatePresence>
+      </div>
+
+      <div className="section__deco deco__left">
+        <img src={shapeOne} alt="" className="shape" />
+      </div>
+
+      <div className="section__bg-wrapper">
+        <span className="bg__title">Portfolio</span>
       </div>
     </section>
   );
