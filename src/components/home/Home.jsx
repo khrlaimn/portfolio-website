@@ -29,13 +29,13 @@ const Home = () => {
               <img src={profileImg} alt="" className="home__profile" />
             </div>
 
-            <p className="home__data home__data-one">
+            {/* <p className="home__data home__data-one">
               <span className="text-lg">
                 12 <b>+</b>
               </span>
 
               <span className="text-sm text-cs">
-                Years of <span>Experience</span>
+                Final Year <span>Student</span>
               </span>
             </p>
 
@@ -45,7 +45,7 @@ const Home = () => {
               <span className="text-sm text-cs">
                 Completed <span>Projects</span>
               </span>
-            </p>
+            </p> */}
 
             <img src={shapeOne} alt="" className="shape shape__1" />
             <img src={shapeTwo} alt="" className="shape shape__2" />
@@ -57,15 +57,15 @@ const Home = () => {
           </p>
 
           <div className="home__socials">
-            <a href="https://github.com/khrlaimn" className="home__social-link">
+            <a href="https://github.com/khrlaimn" target="_blank" className="home__social-link">
               <FaGithub />
             </a>
 
-            <a href="" className="home__social-link">
+            <a href="https://www.linkedin.com/in/khrlaimn/" target="_blank" className="home__social-link">
               <FaLinkedin />
             </a>
 
-            <a href="" className="home__social-link">
+            <a href="https://t.me/khrlaimn2001" target="_blank" className="home__social-link">
               <FaTelegram />
             </a>
           </div>

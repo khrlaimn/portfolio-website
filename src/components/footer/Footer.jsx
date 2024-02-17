@@ -8,17 +8,17 @@ const Footer = () => {
       <div className="footer__container container grid">
         <div className="footer__socials">
           <a
-            href="https://github.com/khrlaimn"
+            href="https://github.com/khrlaimn" target="_blank"
             className="footer__social-link"
           >
             <FaGithub />
           </a>
 
-          <a href="" className="footer__social-link">
+          <a href="https://www.linkedin.com/in/khrlaimn/" target="_blank" className="footer__social-link">
             <FaLinkedin />
           </a>
 
-          <a href="" className="footer__social-link">
+          <a href="https://t.me/khrlaimn2001" target="_blank" className="footer__social-link">
             <FaTelegram />
           </a>
         </div>
