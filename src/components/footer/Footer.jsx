@@ -25,12 +25,12 @@ const Footer = () => {
 
         <p className="footer__copyright text-cs">
           &copy; 2024
-          <span> AimanAhmad</span>. All Rights Reserved
+          <span> KhairulAiman</span>. All Rights Reserved
         </p>
 
         <p className="footer__copyright text-cs">
           Developed by
-          <span> AimanAhmad</span>
+          <span> KhairulAiman</span>
         </p>
       </div>
     </footer>

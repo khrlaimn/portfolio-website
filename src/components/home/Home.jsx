@@ -21,7 +21,7 @@ const Home = () => {
           </h1>
           <p className="home__job">
             <span className="text-cs">I Am </span>
-            <b>Software Engineering Student</b>
+            <b>Seeking Internship Opportunities</b>
           </p>
 
           <div className="home__img-wrapper">
@@ -53,19 +53,33 @@ const Home = () => {
           </div>
 
           <p className="home__text">
-            From Penang, I have deep understanding in Computer Sciene
+            A final-year software engineering student at the University of
+            Tenaga Nasional, enthusiastic about using my abilities to make a
+            significant contribution to the technology industry.
           </p>
 
           <div className="home__socials">
-            <a href="https://github.com/khrlaimn" target="_blank" className="home__social-link">
+            <a
+              href="https://github.com/khrlaimn"
+              target="_blank"
+              className="home__social-link"
+            >
               <FaGithub />
             </a>
 
-            <a href="https://www.linkedin.com/in/khrlaimn/" target="_blank" className="home__social-link">
+            <a
+              href="https://www.linkedin.com/in/khrlaimn/"
+              target="_blank"
+              className="home__social-link"
+            >
               <FaLinkedin />
             </a>
 
-            <a href="https://t.me/khrlaimn2001" target="_blank" className="home__social-link">
+            <a
+              href="https://t.me/khrlaimn2001"
+              target="_blank"
+              className="home__social-link"
+            >
               <FaTelegram />
             </a>
           </div>
