@@ -1,25 +1,16 @@
+// Importing project images
 import Project1 from "./assets/project1.jpeg";
 import Project2 from "./assets/project2.jpg";
 import Project3 from "./assets/project3.jpeg";
 import Project4 from "./assets/project4.jpeg";
-import Project5 from "./assets/project5.jpg";
-import Project6 from "./assets/project6.jpg";
 
-import Testimonial1 from "./assets/testimonial1.jpg";
-import Testimonial2 from "./assets/testimonial2.jpg";
-import Testimonial3 from "./assets/testimonial3.jpg";
-import Testimonial4 from "./assets/testimonial4.jpg";
-import Testimonial5 from "./assets/testimonial5.jpg";
-
+// Navigation links
 export const links = [
   {
     name: "Home",
     path: "home",
   },
-  // {
-  //   name: 'Services',
-  //   path: 'services',
-  // },
+
   {
     name: "Skills",
     path: "skills",
@@ -28,32 +19,19 @@ export const links = [
     name: "Portfolio",
     path: "portfolio",
   },
-  // {
-  //   name: 'Works',
-  //   path: 'work',
-  // },
+
   {
     name: "Resume",
     path: "resume",
   },
-  // {
-  //   name: 'Testimonials',
-  //   path: 'testimonial',
-  // },
-  // {
-  //   name: 'Pricing',
-  //   path: 'pricing',
-  // },
-  // {
-  //   name: 'Blog',
-  //   path: 'blog',
-  // },
+
   {
     name: "Contact",
     path: "contact",
   },
 ];
 
+// Skills data
 export const skills = [
   {
     id: 1,
@@ -92,107 +70,45 @@ export const skills = [
   },
 ];
 
-export const skills2 = [
-  {
-    id: 1,
-    name: "PHP",
-    percentage: 85,
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-  },
-
-  {
-    id: 2,
-    name: "JavaScript",
-    percentage: 75,
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-  },
-
-  {
-    id: 3,
-    name: "WordPress",
-    percentage: 90,
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-  },
-
-  {
-    id: 4,
-    name: "Python",
-    percentage: 75,
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-  },
-
-  {
-    id: 5,
-    name: "React",
-    percentage: 70,
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-  },
-
-  {
-    id: 6,
-    name: "Adobe XD",
-    percentage: 80,
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-  },
-];
-
+// Project data
 export const projects = [
   {
     id: 1,
     img: Project1,
     category: "Web App",
-    title: "Zorro",
+    title: "ITMS: Software Project Management",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+    link: "https://github.com/khrlaimn/SoftwareProjectManagement",
   },
   {
     id: 2,
     img: Project2,
     category: "Mobile App",
-    title: "Gooir",
+    title: "NutriTrack",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
-  },
-  {
-    id: 3,
-    img: Project3,
-    category: "Programming",
-    title: "Explore",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
-  },
-  {
-    id: 4,
-    img: Project4,
-    category: "Machine Learning",
-    title: "Mozar",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+      "NutriTrack is a mental health mobile app that assists university students in tracking their meal expenses and finding healthy and affordable meal options on campus.",
+    link: "https://github.com/khrlaimn/NutriTrack",
   },
   // {
-  //   id: 5,
-  //   img: Project5,
-  //   category: "Development",
-  //   title: "Stay Fit",
+  //   id: 3,
+  //   img: Project3,
+  //   category: "Programming",
+  //   title: "Explore",
   //   description:
   //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
   // },
   // {
-  //   id: 6,
-  //   img: Project6,
-  //   category: "Web Development",
-  //   title: "Kana",
+  //   id: 4,
+  //   img: Project4,
+  //   category: "Machine Learning",
+  //   title: "Mozar",
   //   description:
   //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
   // },
 ];
 
+// CV data
 export const cv = [
   {
     id: 1,
@@ -200,7 +116,7 @@ export const cv = [
     subtitle: "Bachelor of Software Engineering Hons.",
     date: "2022 - 2024",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "I explored a variety of subjects during my degree programmes, such as Web Application Development, Machine Learning and Data Analytics, Mobile Application Development, Parallel Computing, and Java Programming. Apart from enhancing my skills, this comprehensive subject has assisted me in obtaining my current CGPA of 3.73, which demonstrates my commitment to comprehending complex software engineering principles. ",
     category: "education",
   },
 
@@ -210,90 +126,17 @@ export const cv = [
     subtitle: "Diploma in Computer Science",
     date: "2019 - 2021",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "I learned about Database Systems, Data Structures and Algorithms, Object-Oriented Programming, and many other subjects during my Diploma in Computer Science studies. My overall CGPA of 3.82 indicates my dedication to understanding the core concepts of computer science.",
     category: "education",
   },
 
-  // {
-  //   id: 3,
-  //   title: 'IT Future',
-  //   subtitle: 'High School',
-  //   date: '2010 - 2012',
-  //   description:
-  //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-  //   category: 'education',
-  // },
-
   {
-    id: 4,
+    id: 3,
     title: "Internship Trainee",
     subtitle: "Star Fortune Global",
     date: "Jun 2021 - August 2021",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "I completed an internship during my diploma studies as a graphic designer, enhancing my creative capacity, design skills, and collaborative abilities. This experience has granted me a renewed perspective on software engineering projects, empowering me to concentrate on delivering solutions that are not only user-centric but also aesthetically pleasing. ",
     category: "experience",
-  },
-
-  // {
-  //   id: 5,
-  //   title: 'UI / UX Specialist',
-  //   subtitle: 'Kana Design Studio',
-  //   date: '2018 - 2020',
-  //   description:
-  //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-  //   category: 'experience',
-  // },
-
-  // {
-  //   id: 6,
-  //   title: 'Plugins Developer',
-  //   subtitle: 'Fiverr.com',
-  //   date: '2016 - 2018',
-  //   description:
-  //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-  //   category: 'experience',
-  // },
-];
-
-export const testimonials = [
-  {
-    id: 1,
-    img: Testimonial1,
-    name: "Barbara Wilson",
-    author: "CEO Company",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-  },
-  {
-    id: 2,
-    img: Testimonial2,
-    name: "Charlie Smith",
-    author: "Designer",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-  },
-  {
-    id: 3,
-    img: Testimonial3,
-    name: "Roy Wang",
-    author: "Manager GYM",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-  },
-  {
-    id: 4,
-    img: Testimonial4,
-    name: "Jennifer Smith",
-    author: "CEO & Founder",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-  },
-  {
-    id: 5,
-    img: Testimonial5,
-    name: "Paul Freeman",
-    author: "Photographer",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
 ];

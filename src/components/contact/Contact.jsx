@@ -5,6 +5,7 @@ import axios from "axios";
 import shapeOne from "../../assets/shape-1.png";
 
 const Contact = () => {
+  // State to manage form input values
   const [form, setForm] = useState({
     name: "",
     email: "",
@@ -12,24 +13,27 @@ const Contact = () => {
     message: "",
   });
 
+  // Event handler for input changes
   const handleChange = (e) => {
     const name = e.target.name;
     const value = e.target.value;
     setForm({ ...form, [name]: value });
   };
 
+  // Event handler for form submission
   const handleSubmit = (e) => {
     e.preventDefault();
 
+    // Make a POST request to Google Sheets API using Axios
     axios
       .post(
         "https://sheet.best/api/sheets/afd20e9d-075d-44d6-940f-6f8907a4c835",
         form
       )
-      .then((responsse) => {
-        console.log(responsse);
+      .then((response) => {
+        console.log(response);
 
-        //clearing form field
+        // Clearing form fields after successful submission
         setForm({ name: "", email: "", subject: "", message: "" });
       });
   };
@@ -37,12 +41,15 @@ const Contact = () => {
   return (
     <section className="contact section" id="contact">
       <h2 className="section__title text-cs">Contact Me</h2>
+
       <p className="section__subtitle">
         Let's <span>Hit Me Up!</span>
       </p>
 
+      {/* Contact Information */}
       <div className="contact__container container grid">
         <div className="contact__content">
+          {/* Address Card */}
           <div className="contact__card">
             <span className="contact__card-icon">
               <FaRegMap />
@@ -51,14 +58,16 @@ const Contact = () => {
             <p className="contact__card-data">Penang, Malaysia</p>
           </div>
 
+          {/* Profile Card */}
           <div className="contact__card">
             <span className="contact__card-icon">
               <FaRegUser />
             </span>
             <h3 className="contact__card-title">Student</h3>
-            <p className="contact__card-data">Looking for Internship</p>
+            <p className="contact__card-data">Seeking for Internship</p>
           </div>
 
+          {/* Email Card */}
           <div className="contact__card">
             <span className="contact__card-icon">
               <FaRegEnvelope />
@@ -67,6 +76,7 @@ const Contact = () => {
             <p className="contact__card-data">khrlaimn2001@gmail.com</p>
           </div>
 
+          {/* Telegram Card */}
           <div className="contact__card">
             <span className="contact__card-icon">
               <FaTelegram />
@@ -76,8 +86,10 @@ const Contact = () => {
           </div>
         </div>
 
+        {/* Contact Form */}
         <form className="contact__form" onSubmit={handleSubmit}>
           <div className="contact__form-group grid">
+            {/* Full Name Input */}
             <div className="contact__form-div">
               <label className="contact__form-tag text-cs">
                 Your full Name <b>*</b>
@@ -91,6 +103,7 @@ const Contact = () => {
               />
             </div>
 
+            {/* Email Input */}
             <div className="contact__form-div">
               <label className="contact__form-tag text-cs">
                 Your Email Address <b>*</b>
@@ -105,6 +118,7 @@ const Contact = () => {
             </div>
           </div>
 
+          {/* Subject Input */}
           <div className="contact__form-div">
             <label className="contact__form-tag text-cs">
               Your Subject <b>*</b>
@@ -118,6 +132,7 @@ const Contact = () => {
             />
           </div>
 
+          {/* Message Input */}
           <div className="contact__form-div contact__form-area">
             <label className="contact__form-tag text-cs">
               Your Message <b>*</b>
@@ -130,6 +145,7 @@ const Contact = () => {
             ></textarea>
           </div>
 
+          {/* Submit Button */}
           <div className="contact__submit">
             <p> * Accept the terms and conditions.</p>
             <button type="submit" className="btn text-cs">
@@ -139,10 +155,12 @@ const Contact = () => {
         </form>
       </div>
 
+      {/* Decorative Shape */}
       <div className="section__deco deco__left">
         <img src={shapeOne} alt="" className="shape" />
       </div>
 
+      {/* Background Wrapper */}
       <div className="section__bg-wrapper">
         <span className="bg__title">Contact Me</span>
       </div>

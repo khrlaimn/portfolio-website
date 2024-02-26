@@ -23,6 +23,7 @@ const Skills = () => {
         My <span>Skills</span>
       </p>
 
+      {/* Swiper component for displaying skills with responsive breakpoints */}
       <Swiper 
         spaceBetween={30}
         pagination={{
@@ -45,6 +46,7 @@ const Skills = () => {
         modules={[Pagination]}
         className="skills__container container mySwiper"
       >
+        {/* Mapping through skills and rendering SwiperSlide components */}
         {skills.map(({ name, title, description }, index) => {
           return (
             <SwiperSlide className="skills__item card card-one" key={index}>
@@ -59,10 +61,12 @@ const Skills = () => {
         })}
       </Swiper>
 
+      {/* Decorative element on the right side */}
       <div className="section__deco deco__right">
         <img src={shapeOne} alt="" className="shape" />
       </div>
 
+      {/* Background wrapper with a title */}
       <div className="section__bg-wrapper">
         <span className="bg__title">Skills</span>
       </div>
