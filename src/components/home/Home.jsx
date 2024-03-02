@@ -4,7 +4,7 @@ import shapeOne from "../../assets/shape-1.png";
 import shapeTwo from "../../assets/shape-2.png";
 
 import { FaGithub, FaLinkedin, FaTelegram } from "react-icons/fa";
-import resume from "../../assets/cikmanresume.pdf";
+import resume from "../../assets/Resume_Aiman.pdf";
 import "./home.css";
 
 const Home = () => {
@@ -91,10 +91,10 @@ const Home = () => {
             </a>
           </div>
 
-          {/* Download CV and Explore Skills */}
+          {/* Download Resume and Explore Skills */}
           <div className="home__btns">
             <a download="" href={resume} className="btn text-cs">
-              Download CV
+              Download Resume
             </a>
             <a href="#skills" className="hero__link text-cs">
               My Skills
