@@ -1,8 +1,6 @@
 // Importing project images
 import Project1 from "./assets/project1.jpeg";
 import Project2 from "./assets/project2.jpg";
-import Project3 from "./assets/project3.jpeg";
-import Project4 from "./assets/project4.jpeg";
 
 // Navigation links
 export const links = [
@@ -78,7 +76,7 @@ export const projects = [
     category: "Web App",
     title: "ITMS: Software Project Management",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+      "Software project management system, to be used by ITMS to monitor all software projects and its status.",
     link: "https://github.com/khrlaimn/SoftwareProjectManagement",
   },
   {
