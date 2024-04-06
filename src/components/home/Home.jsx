@@ -4,7 +4,7 @@ import shapeOne from "../../assets/shape-1.png";
 import shapeTwo from "../../assets/shape-2.png";
 
 import { FaGithub, FaLinkedin, FaTelegram } from "react-icons/fa";
-import resume from "../../assets/Resume_Aiman.pdf";
+import resume from "../../assets/Resume_KhairulAiman.pdf";
 import "./home.css";
 
 const Home = () => {
