@@ -4,7 +4,7 @@ import shapeOne from "../../assets/shape-1.png";
 import shapeTwo from "../../assets/shape-2.png";
 
 import { FaGithub, FaLinkedin, FaTelegram } from "react-icons/fa";
-import resume from "../../assets/Resume_KhairulAiman.pdf";
+import resume from "../../assets/Resume_MuhammadKhairulAimanBinAhmadFaiza.pdf";
 import "./home.css";
 
 const Home = () => {
@@ -25,7 +25,7 @@ const Home = () => {
           {/* Job Seeking Information */}
           <p className="home__job">
             <span className="text-cs">I Am </span>
-            <b>Seeking Internship Opportunities</b>
+            <b>Seeking Fresh Graduate Opportunities</b>
           </p>
 
           {/* Profile Image and Decorative Shapes */}
@@ -59,9 +59,9 @@ const Home = () => {
 
           {/* Personal Information */}
           <p className="home__text">
-            A final-year software engineering student at the University of
-            Tenaga Nasional, enthusiastic about using my abilities to make a
-            significant contribution to the technology industry.
+            A proactive Software Engineering graduate with robust experience in
+            software development and a solid grasp of software engineering
+            principles.
           </p>
 
           {/* Social Media Links */}

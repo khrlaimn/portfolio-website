@@ -1,6 +1,8 @@
 // Importing project images
 import Project1 from "./assets/project1.jpeg";
 import Project2 from "./assets/project2.jpg";
+import SGH from "./assets/SGHLogo.png";
+import Cart from "./assets/cart.jpg";
 
 // Navigation links
 export const links = [
@@ -36,7 +38,7 @@ export const skills = [
     name: "Web Development",
     title: "Back-End & Front-End",
     description:
-      "Skilled in front-end technologies like Bootstrap and React.js as well as back-end development using Laravel, PHP, and MySQL.",
+      "Skilled in front-end technologies like Bootstrap and React.js as well as back-end development using Laravel and Flask.",
   },
   {
     id: 2,
@@ -88,6 +90,24 @@ export const projects = [
       "NutriTrack is a mental health mobile app that assists university students in tracking their meal expenses and finding healthy and affordable meal options on campus.",
     link: "https://github.com/khrlaimn/NutriTrack",
   },
+  {
+    id: 3,
+    img: SGH,
+    category: "Web App",
+    title: "SGH: Seri Gemilang Hub",
+    description:
+      "Developed a Laravel Framework web app to streamline school operations, featuring user management, real-time attendance tracking, teacher's whereabouts, and notice board.",
+    link: "https://github.com/khrlaimn/SeriGemilangHub",
+  },
+  {
+    id: 4,
+    img: Cart,
+    category: "Machine Learning",
+    title: "Customer's Purchasing Intention",
+    description:
+      "To predicts customer purchasing intentions, featuring models like Random Forest, Logistic Regression, and KNN, with hyperparameter tuning and performance assessment.",
+    link: "https://github.com/khrlaimn/Customer-Purchasing-Intention",
+  },
   // {
   //   id: 3,
   //   img: Project3,
@@ -114,7 +134,7 @@ export const cv = [
     subtitle: "Bachelor of Software Engineering Hons.",
     date: "2022 - 2024",
     description:
-      "I explored a variety of subjects during my degree programmes, such as Web Application Development, Machine Learning and Data Analytics, Mobile Application Development, Parallel Computing, and Java Programming. Apart from enhancing my skills, this comprehensive subject has assisted me in obtaining my current CGPA of 3.73, which demonstrates my commitment to comprehending complex software engineering principles. ",
+      "I explored a variety of subjects during my degree programmes, such as Web Application Development, Machine Learning and Data Analytics, Mobile Application Development, Parallel Computing, and Java Programming. Apart from enhancing my skills, this comprehensive subject has assisted me in obtaining my current CGPA of 3.71, which demonstrates my commitment to comprehending complex software engineering principles. ",
     category: "education",
   },
 
@@ -130,11 +150,21 @@ export const cv = [
 
   {
     id: 3,
-    title: "Internship Trainee",
-    subtitle: "Star Fortune Global",
+    title: "Star Fortune Global",
+    subtitle: "Internship Trainee",
     date: "Jun 2021 - August 2021",
     description:
-      "I completed an internship during my diploma studies as a graphic designer, enhancing my creative capacity, design skills, and collaborative abilities. This experience has granted me a renewed perspective on software engineering projects, empowering me to concentrate on delivering solutions that are not only user-centric but also aesthetically pleasing. ",
+      " Managed the company's Facebook page, creating engaging content and introducing weekly 'Fun Fact Friday' and 'Wiki Wednesday' posters, which significantly enhanced audience interaction. Produced visually striking event posters that boosted the company's online presence, leading to a 195.2% increase in post engagement, a 346% rise in page visits, and a 193.2% growth in page followers. ",
+    category: "experience",
+  },
+
+  {
+    id: 3,
+    title: "Intel Corporation",
+    subtitle: "Software Engineering Internship",
+    date: "July 2024 - Present",
+    description:
+      "Implemented tailored IT solutions for the Test Engineering department, optimizing workflows and integrating OEE metrics through a Flask-based web dashboard for real-time monitoring, resulting in a 60% enhancement in workstation quality and up to 80% improvement in productivity. ",
     category: "experience",
   },
 ];

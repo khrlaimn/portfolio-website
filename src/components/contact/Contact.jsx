@@ -63,8 +63,8 @@ const Contact = () => {
             <span className="contact__card-icon">
               <FaRegUser />
             </span>
-            <h3 className="contact__card-title">Student</h3>
-            <p className="contact__card-data">Seeking for Internship</p>
+            <h3 className="contact__card-title">Fresh Graduate</h3>
+            <p className="contact__card-data">Seeking for Software Developer</p>
           </div>
 
           {/* Email Card */}
