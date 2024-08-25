@@ -1,4 +1,4 @@
-# Yusup's Portfolio Website
+# Khairul Aiman's Portfolio Website
 
 Welcome to my portfolio website! This site is a hub for showcasing my creative and technical projects, offering insights into my skills and expertise.
 
