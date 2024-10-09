@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
 import profileImg from "../../assets/profile-img.png";
 import shapeOne from "../../assets/shape-1.png";
@@ -70,6 +71,7 @@ const Home = () => {
               href="https://github.com/khrlaimn"
               target="_blank"
               className="home__social-link"
+              rel="noreferrer"
             >
               <FaGithub />
             </a>
@@ -78,6 +80,7 @@ const Home = () => {
               href="https://www.linkedin.com/in/khrlaimn/"
               target="_blank"
               className="home__social-link"
+              rel="noreferrer"
             >
               <FaLinkedin />
             </a>
@@ -86,6 +89,7 @@ const Home = () => {
               href="https://t.me/khrlaimn2001"
               target="_blank"
               className="home__social-link"
+              rel="noreferrer"
             >
               <FaTelegram />
             </a>
