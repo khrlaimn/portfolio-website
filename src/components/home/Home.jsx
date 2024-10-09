@@ -70,8 +70,8 @@ const Home = () => {
             <a
               href="https://github.com/khrlaimn"
               target="_blank"
-              className="home__social-link"
               rel="noreferrer"
+              className="home__social-link"
             >
               <FaGithub />
             </a>
@@ -79,8 +79,8 @@ const Home = () => {
             <a
               href="https://www.linkedin.com/in/khrlaimn/"
               target="_blank"
-              className="home__social-link"
               rel="noreferrer"
+              className="home__social-link"
             >
               <FaLinkedin />
             </a>
@@ -88,8 +88,8 @@ const Home = () => {
             <a
               href="https://t.me/khrlaimn2001"
               target="_blank"
-              className="home__social-link"
               rel="noreferrer"
+              className="home__social-link"
             >
               <FaTelegram />
             </a>
